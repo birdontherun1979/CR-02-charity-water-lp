@@ -9,8 +9,8 @@
 
 body {
   margin: 0;
-  font-family: 'Avenir', 'Proxima Nova', Arial, sans-serif;
-  background-color: #e9e7e0;
+  font-family: 'Proxima Nova', 'Avenir', Arial, sans-serif;
+  background-color: #ffcc07;
 }
 
 img {
@@ -31,6 +31,7 @@ img {
 
 .top-bar h1 {
   margin: 0;
+  font-family: 'Proxima Nova', 'Avenir', Arial, sans-serif;
   font-size: clamp(2.5rem, 5vw, 5rem);
   font-weight: 800;
   letter-spacing: 1px;
@@ -117,6 +118,7 @@ img {
 .line {
   margin: 0;
   color: #f7c90d;
+  font-family: 'Proxima Nova', 'Avenir', Arial, sans-serif;
   font-weight: 800;
   line-height: 1.1;
 }
@@ -129,6 +131,7 @@ img {
 
 .supporting-text {
   color: #fff;
+  font-family: 'Proxima Nova', 'Avenir', Arial, sans-serif;
   font-size: clamp(1.05rem, 1.5vw, 1.75rem);
   line-height: 1.4;
   margin: 26px 0 0;
@@ -140,6 +143,7 @@ img {
   background-color: #f7c90d;
   color: #0d3c6b;
   text-decoration: none;
+  font-family: 'Proxima Nova', 'Avenir', Arial, sans-serif;
   font-size: clamp(1.4rem, 2vw, 2.5rem);
   font-weight: 800;
   line-height: 1.2;

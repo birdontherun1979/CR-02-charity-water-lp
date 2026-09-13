@@ -66,9 +66,10 @@ img {
 }
 
 .visual {
-  width: 62%;
+  width: 50%;
   min-height: 700px;
   overflow: hidden;
+  background-color: #003366;
 }
 
 .visual img {
@@ -76,10 +77,11 @@ img {
   height: 100%;
   object-fit: cover;
   object-position: center center;
+  display: block;
 }
 
 .text-panel {
-  width: 38%;
+  width: 50%;
   background-color: #003366;
   color: #ffcc07;
   text-align: center;

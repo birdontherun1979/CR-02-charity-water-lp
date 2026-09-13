@@ -20,7 +20,7 @@ img {
 
 .top-bar {
   background-color: #101010;
-  color: #fff;
+  color: #ffcc07;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,42 +39,14 @@ img {
 }
 
 .brand-icon {
-  width: 54px;
-  height: 54px;
-  border-radius: 12px;
-  background-color: #f7c90d;
-  position: relative;
-  box-shadow: inset 0 0 0 3px #0f0f0f;
+  width: 68px;
+  height: 68px;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(0 2px 0 rgba(0, 0, 0, 0.2));
 }
 
-.brand-icon::before {
-  content: "";
-  position: absolute;
-  top: -12px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 28px;
-  height: 12px;
-  background-color: #f7c90d;
-  border-radius: 8px 8px 0 0;
-  border: 3px solid #0f0f0f;
-  border-bottom: none;
-}
-
-.brand-icon::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 16px;
-  height: 16px;
-  border: 4px solid #0f0f0f;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.3);
-}
-
-.brand-icon.right {
+.brand-icon-right {
   transform: scaleX(-1);
 }
 

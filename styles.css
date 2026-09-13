@@ -19,7 +19,7 @@ img {
 }
 
 .top-bar {
-  background-color: #101010;
+  background-color: #1a1a1a;
   color: #ffcc07;
   display: flex;
   align-items: center;
@@ -58,7 +58,7 @@ img {
 .hero-section {
   max-width: 1500px;
   margin: 0 auto;
-  background-color: #0d3c6b;
+  background-color: #003366;
   display: flex;
   align-items: stretch;
   justify-content: center;
@@ -79,8 +79,8 @@ img {
 
 .text-panel {
   width: 28%;
-  background-color: #0d3c6b;
-  color: #fff;
+  background-color: #003366;
+  color: #ffcc07;
   text-align: center;
   padding: 38px 26px 28px;
   display: flex;
@@ -90,7 +90,7 @@ img {
 
 .line {
   margin: 0;
-  color: #f7c90d;
+  color: #ffcc07;
   font-family: 'Proxima Nova', 'Avenir', Arial, sans-serif;
   font-weight: 800;
   line-height: 1.1;
@@ -103,7 +103,7 @@ img {
 }
 
 .supporting-text {
-  color: #fff;
+  color: #ffcc07;
   font-family: 'Proxima Nova', 'Avenir', Arial, sans-serif;
   font-size: clamp(1.05rem, 1.5vw, 1.75rem);
   line-height: 1.4;
@@ -113,8 +113,8 @@ img {
 
 .cta-button {
   display: inline-block;
-  background-color: #f7c90d;
-  color: #0d3c6b;
+  background-color: #ffcc07;
+  color: #003366;
   text-decoration: none;
   font-family: 'Proxima Nova', 'Avenir', Arial, sans-serif;
   font-size: clamp(1.4rem, 2vw, 2.5rem);

@@ -69,7 +69,8 @@ img {
   width: 50%;
   min-height: 700px;
   overflow: hidden;
-  background-color: transparent;
+  background-color: #001a2b;
+  padding: 22px 22px 22px 0;
 }
 
 .visual img {
@@ -78,7 +79,8 @@ img {
   object-fit: cover;
   object-position: center center;
   display: block;
-  border: none;
+  border: 3px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
   outline: none;
 }
 

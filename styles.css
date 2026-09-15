@@ -130,7 +130,7 @@ img {
 }
 
 .cta-button {
-  margin: 70px auto 0;
+  margin: 85px auto 0;
   display: inline-block;
   background-color: #ffcc07;
   color: #003366;
@@ -140,7 +140,7 @@ img {
   font-weight: 800;
   line-height: 1.2;
   padding: 18px 24px;
-  border-radius: 16px;
+  border-radius: 32px;
   box-shadow: 0 4px 0 rgba(0, 0, 0, 0.15);
   transition: transform 0.2s ease;
 }

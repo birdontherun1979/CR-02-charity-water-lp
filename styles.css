@@ -88,7 +88,7 @@ img {
 .visual-border {
   position: absolute;
   inset: 12px;
-  border: 1px solid #ffcc07;
+  border: 3px solid #ffcc07;
   border-radius: 8px;
   pointer-events: none;
 }
@@ -130,7 +130,7 @@ img {
 }
 
 .cta-button {
-  margin: 42px auto 0;
+  margin: 70px auto 0;
   display: inline-block;
   background-color: #ffcc07;
   color: #003366;
